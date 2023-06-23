@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="URL" value="https://demowebshop.tricentis.com"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+		 <class name="TestCases.DemoWebShop_Register_TestCase"/>
+		 <class name="TestCases.DemoWebShopLoginTestCase"/>
+         <class name="TestCases.SearchBoxTestCase"/>
+         <class name="TestCases.DemoWebShop_FollowUs_TestCase"/>
+         <class name="TestCases.DemoWebShop_Electronics_TestCase"/>
+         <class name="TestCases.DemoWebShop_DropDown_TestCase"/>
+         <class name="TestCases.SubscribeTestCase"/>
+         <class name="TestCases.DemowebShopVoteTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

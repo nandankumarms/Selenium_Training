@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-13T09:11:51 IST" name="Suite" finished-at="2023-06-13T09:13:07 IST" duration-ms="75557">
+    <groups>
+    </groups>
+    <test started-at="2023-06-13T09:11:51 IST" name="Test" finished-at="2023-06-13T09:13:07 IST" duration-ms="75557">
+      <class name="TestCases.DemowebShopVoteTestCase">
+        <test-method is-config="true" signature="browserSetUp(java.lang.String)[pri:0, instance:TestCases.DemowebShopVoteTestCase@3bf9ce3e]" started-at="2023-06-13T09:13:01 IST" name="browserSetUp" finished-at="2023-06-13T09:13:06 IST" duration-ms="4849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="demo()[pri:0, instance:TestCases.DemowebShopVoteTestCase@3bf9ce3e]" started-at="2023-06-13T09:13:06 IST" name="demo" finished-at="2023-06-13T09:13:06 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:TestCases.DemowebShopVoteTestCase@3bf9ce3e]" started-at="2023-06-13T09:13:06 IST" name="BrowserTearDown" finished-at="2023-06-13T09:13:07 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+      </class> <!-- TestCases.DemowebShopVoteTestCase -->
+      <class name="TestCases.SubscribeTestCase">
+        <test-method is-config="true" signature="browserSetUp(java.lang.String)[pri:0, instance:TestCases.SubscribeTestCase@bd4dc25]" started-at="2023-06-13T09:12:52 IST" name="browserSetUp" finished-at="2023-06-13T09:12:57 IST" duration-ms="4822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="demo(java.lang.String)[pri:0, instance:TestCases.SubscribeTestCase@bd4dc25]" started-at="2023-06-13T09:12:57 IST" name="demo" data-provider="SubscribeTestData" finished-at="2023-06-13T09:12:59 IST" duration-ms="1693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nandankumarms@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="demo(java.lang.String)[pri:0, instance:TestCases.SubscribeTestCase@bd4dc25]" started-at="2023-06-13T09:12:59 IST" name="demo" data-provider="SubscribeTestData" finished-at="2023-06-13T09:13:00 IST" duration-ms="823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nandan@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="demo(java.lang.String)[pri:0, instance:TestCases.SubscribeTestCase@bd4dc25]" started-at="2023-06-13T09:13:00 IST" name="demo" data-provider="SubscribeTestData" finished-at="2023-06-13T09:13:01 IST" duration-ms="1070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nandan123@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:TestCases.SubscribeTestCase@bd4dc25]" started-at="2023-06-13T09:13:01 IST" name="BrowserTearDown" finished-at="2023-06-13T09:13:01 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+      </class> <!-- TestCases.SubscribeTestCase -->
+      <class name="TestCases.DemoWebShop_Register_TestCase">
+        <test-method is-config="true" signature="browserSetUp(java.lang.String)[pri:0, instance:TestCases.DemoWebShop_Register_TestCase@57d7f8ca]" started-at="2023-06-13T09:11:51 IST" name="browserSetUp" finished-at="2023-06-13T09:12:00 IST" duration-ms="9360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.DemoWebShop_Register_TestCase@57d7f8ca]" started-at="2023-06-13T09:12:03 IST" name="register" data-provider="RegisterTestData" finished-at="2023-06-13T09:12:06 IST" duration-ms="2946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nandankumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nandan12@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nandan@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[nandan@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.DemoWebShop_Register_TestCase@57d7f8ca]" started-at="2023-06-13T09:12:06 IST" name="register" data-provider="RegisterTestData" finished-at="2023-06-13T09:12:08 IST" duration-ms="2548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manjunath]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manju123@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manju@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[manju@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.DemoWebShop_Register_TestCase@57d7f8ca]" started-at="2023-06-13T09:12:08 IST" name="register" data-provider="RegisterTestData" finished-at="2023-06-13T09:12:11 IST" duration-ms="2746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gagan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gowda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gagan1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gagan@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[gagan@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.DemoWebShop_Register_TestCase@57d7f8ca]" started-at="2023-06-13T09:12:11 IST" name="register" data-provider="RegisterTestData" finished-at="2023-06-13T09:12:14 IST" duration-ms="2768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vinay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[G B]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vinay12345@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[vinay@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[vinay@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:TestCases.DemoWebShop_Register_TestCase@57d7f8ca]" started-at="2023-06-13T09:12:14 IST" name="BrowserTearDown" finished-at="2023-06-13T09:12:14 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+      </class> <!-- TestCases.DemoWebShop_Register_TestCase -->
+      <class name="TestCases.SearchBoxTestCase">
+        <test-method is-config="true" signature="browserSetUp(java.lang.String)[pri:0, instance:TestCases.SearchBoxTestCase@3d6f0054]" started-at="2023-06-13T09:12:25 IST" name="browserSetUp" finished-at="2023-06-13T09:12:30 IST" duration-ms="4629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="demo(java.lang.String)[pri:0, instance:TestCases.SearchBoxTestCase@3d6f0054]" started-at="2023-06-13T09:12:30 IST" name="demo" data-provider="SearchTestData" finished-at="2023-06-13T09:12:31 IST" duration-ms="1139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="demo(java.lang.String)[pri:0, instance:TestCases.SearchBoxTestCase@3d6f0054]" started-at="2023-06-13T09:12:31 IST" name="demo" data-provider="SearchTestData" finished-at="2023-06-13T09:12:32 IST" duration-ms="997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Computer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="demo(java.lang.String)[pri:0, instance:TestCases.SearchBoxTestCase@3d6f0054]" started-at="2023-06-13T09:12:32 IST" name="demo" data-provider="SearchTestData" finished-at="2023-06-13T09:12:33 IST" duration-ms="999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:TestCases.SearchBoxTestCase@3d6f0054]" started-at="2023-06-13T09:12:33 IST" name="BrowserTearDown" finished-at="2023-06-13T09:12:34 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+      </class> <!-- TestCases.SearchBoxTestCase -->
+      <class name="TestCases.DemoWebShop_Electronics_TestCase">
+        <test-method is-config="true" signature="browserSetUp(java.lang.String)[pri:0, instance:TestCases.DemoWebShop_Electronics_TestCase@5fbdfdcf]" started-at="2023-06-13T09:12:39 IST" name="browserSetUp" finished-at="2023-06-13T09:12:43 IST" duration-ms="4569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="elctronics()[pri:0, instance:TestCases.DemoWebShop_Electronics_TestCase@5fbdfdcf]" started-at="2023-06-13T09:12:43 IST" name="elctronics" finished-at="2023-06-13T09:12:45 IST" duration-ms="1943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elctronics -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:TestCases.DemoWebShop_Electronics_TestCase@5fbdfdcf]" started-at="2023-06-13T09:12:45 IST" name="BrowserTearDown" finished-at="2023-06-13T09:12:45 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+      </class> <!-- TestCases.DemoWebShop_Electronics_TestCase -->
+      <class name="TestCases.DemoWebShop_DropDown_TestCase">
+        <test-method is-config="true" signature="browserSetUp(java.lang.String)[pri:0, instance:TestCases.DemoWebShop_DropDown_TestCase@4efc180e]" started-at="2023-06-13T09:12:45 IST" name="browserSetUp" finished-at="2023-06-13T09:12:50 IST" duration-ms="4690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="dropdown()[pri:0, instance:TestCases.DemoWebShop_DropDown_TestCase@4efc180e]" started-at="2023-06-13T09:12:50 IST" name="dropdown" finished-at="2023-06-13T09:12:52 IST" duration-ms="2085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:TestCases.DemoWebShop_DropDown_TestCase@4efc180e]" started-at="2023-06-13T09:12:52 IST" name="BrowserTearDown" finished-at="2023-06-13T09:12:52 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+      </class> <!-- TestCases.DemoWebShop_DropDown_TestCase -->
+      <class name="TestCases.DemoWebShopLoginTestCase">
+        <test-method is-config="true" signature="browserSetUp(java.lang.String)[pri:0, instance:TestCases.DemoWebShopLoginTestCase@16a0ee18]" started-at="2023-06-13T09:12:14 IST" name="browserSetUp" finished-at="2023-06-13T09:12:19 IST" duration-ms="4819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCases.DemoWebShopLoginTestCase@16a0ee18]" started-at="2023-06-13T09:12:19 IST" name="login" data-provider="LoginTestData" finished-at="2023-06-13T09:12:22 IST" duration-ms="2825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nandanms@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nandan@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCases.DemoWebShopLoginTestCase@16a0ee18]" started-at="2023-06-13T09:12:22 IST" name="login" data-provider="LoginTestData" finished-at="2023-06-13T09:12:25 IST" duration-ms="2802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seeramakshay@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Akshay123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:TestCases.DemoWebShopLoginTestCase@16a0ee18]" started-at="2023-06-13T09:12:25 IST" name="BrowserTearDown" finished-at="2023-06-13T09:12:25 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+      </class> <!-- TestCases.DemoWebShopLoginTestCase -->
+      <class name="TestCases.DemoWebShop_FollowUs_TestCase">
+        <test-method is-config="true" signature="browserSetUp(java.lang.String)[pri:0, instance:TestCases.DemoWebShop_FollowUs_TestCase@505fc5a4]" started-at="2023-06-13T09:12:34 IST" name="browserSetUp" finished-at="2023-06-13T09:12:38 IST" duration-ms="4505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="followUs()[pri:0, instance:TestCases.DemoWebShop_FollowUs_TestCase@505fc5a4]" started-at="2023-06-13T09:12:38 IST" name="followUs" finished-at="2023-06-13T09:12:38 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followUs -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:TestCases.DemoWebShop_FollowUs_TestCase@505fc5a4]" started-at="2023-06-13T09:12:38 IST" name="BrowserTearDown" finished-at="2023-06-13T09:12:39 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+      </class> <!-- TestCases.DemoWebShop_FollowUs_TestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
